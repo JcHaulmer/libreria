@@ -1,0 +1,39 @@
+.hidden {
+    display: none;
+}
+
+.sidebar {
+    width: 280px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.contenidoVista {
+    width: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    margin-left: 280px;
+    padding: 20px;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.sidebar .nav {
+flex-grow: 1;
+}
+  
+.sidebar .dropdown {
+display: flex;
+align-items: center;
+justify-content: center;
+}
